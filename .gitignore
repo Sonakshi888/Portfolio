@@ -27,8 +27,11 @@ wp-config.php
 
 # htaccess
 <<<<<<< HEAD
+<<<<<<< HEAD
 /.htaccess
 =======
+=======
+>>>>>>> 537576248e6ecc3108f2f4b35ce7e61c3f5cda7b
 /.htaccess
 
 # All plugins
@@ -40,6 +43,10 @@ wp-config.php
 # All themes
 #
 # Note: If you wish to whitelist themes,
+<<<<<<< HEAD
 # uncomment the next line
 #/wp-content/themes
 >>>>>>> 5d3a1ce008367867abcefd00285344a26865432d
+=======
+# uncomment the next l
+>>>>>>> 537576248e6ecc3108f2f4b35ce7e61c3f5cda7b

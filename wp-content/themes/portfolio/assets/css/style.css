@@ -28,13 +28,105 @@
   color: white;
 }
 
+<<<<<<< HEAD
+=======
+/* home styling */
+
+/* intro section */
+.intro {
+  letter-spacing: 0px;
+  color: #7a4c75;
+  opacity: 1;
+  margin: 36px 0px;
+}
+
+.intro .intro-title {
+  font: normal normal 600 30px/40px Segoe UI;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.intro .intro-para {
+  font: normal normal normal 28px/37px Segoe UI;
+  font-size: 20px;
+  max-width: 550px;
+  margin: auto;
+  line-height: initial;
+}
+/* slider section */
+.slider-row {
+  box-sizing: content-box;
+  margin-bottom: 22px;
+}
+.carousel-inner {
+  border-radius: 20px;
+}
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("http://localhost/projects/portfolio/wp-content/uploads/2023/01/ios-arrow-back.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("http://localhost/projects/portfolio/wp-content/uploads/2023/01/ios-arrow-back-1.svg");
+}
+.carousel-control-prev {
+  left: -104px;
+}
+.carousel-control-next {
+  right: -104px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+.carousel-indicators button {
+  background-color: #cd7389 !important;
+}
+.carousel-indicators .active {
+  background-color: #7a4c75;
+}
+
+/* projects section */
+.projects .projects-heading {
+  text-align: left;
+  font: normal normal bold 50px/67px Segoe UI;
+  letter-spacing: 0px;
+  color: #7a4c75;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.tech-wrapper {
+  background: #EBDEE4 0% 0% no-repeat padding-box;
+  box-shadow: 2px 6px 12px #00000029;
+  border-radius: 30px;
+  opacity: 1;
+  max-width: 580px;
+  max-height: 568px;
+}
+>>>>>>> 537576248e6ecc3108f2f4b35ce7e61c3f5cda7b
 /* media queries */
 /* 
 header
 */
 @media screen and (max-width: 767px) {
+<<<<<<< HEAD
     .hamburger-btn {
       display: flex;
       justify-content: end;
     }
+=======
+  .hamburger-btn {
+    display: flex;
+    justify-content: end;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+>>>>>>> 537576248e6ecc3108f2f4b35ce7e61c3f5cda7b
 }
