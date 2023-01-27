@@ -1,0 +1,40 @@
+/* styling of the body */
+* {
+  font-size: 16px;
+  line-height: 17px;
+  box-sizing: border-box;
+  margin-right: 0%;
+}
+
+/* 
+* header styling
+*/
+.hamburger-btn {
+  display: none;
+}
+
+.portfolio-logo {
+  width: 43px;
+  height: 64px;
+}
+#masthead {
+  background-color: #7a4c75;
+}
+.primary {
+  column-gap: 24px;
+  justify-content: flex-end;
+}
+.menu-item a {
+  color: white;
+}
+
+/* media queries */
+/* 
+header
+*/
+@media screen and (max-width: 767px) {
+    .hamburger-btn {
+      display: flex;
+      justify-content: end;
+    }
+}

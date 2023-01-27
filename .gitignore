@@ -26,4 +26,20 @@ wp-config.php
 *.log
 
 # htaccess
+<<<<<<< HEAD
 /.htaccess
+=======
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
+>>>>>>> 5d3a1ce008367867abcefd00285344a26865432d
