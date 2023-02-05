@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,24 +12,29 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'portfolio' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'portfolio' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'portfolio' ), 'portfolio', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="footer-wrapper">
+	<div class="container">
+		<div class="row footer-row align-items-center justify-content-center">
+			<div class="col-md-6 col-sm-12">
+				<a href="<?php echo get_home_url(); ?>"><img class="portfolio-logo" src="<?php echo get_home_url() . '/wp-content/uploads/2023/01/Group-26@2x.png'; ?>" alt="portfolio_logo" /><a href="<?php echo get_home_url(); ?>"></a>
+			</div>
+			<div class="col-md-6 col-sm-12 d-flex justify-content-end">
+				<div class="right-content-wrapper d-flex flex-column">
+					<div class="icon-wrapper">
+						<a href="mailto:jasmeetkaursethi2@gmail.com"><img class="icon" src="<?php echo get_home_url() . '/wp-content/uploads/2023/02/Icon-zocial-email.svg'; ?>" alt="mail" /></a>
+						<a href="tel:8989898989"><img class="icon" src="<?php echo get_home_url() . '/wp-content/uploads/2023/02/Icon-feather-phone-call.svg'; ?>" alt="phone" /></a>
+						<a href="" target="_blank"><img class="icon" src="<?php echo get_home_url() . '/wp-content/uploads/2023/02/Icon-awesome-linkedin.svg'; ?>" alt="linkedin" /></a>
+					</div>
+					<div class="contact-wrapper"><a href="<?php echo get_home_url() . '/contact'; ?>">Contact</a></div>
+				</div>
+			</div>
+		</div>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

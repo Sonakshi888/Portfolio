@@ -33,7 +33,8 @@
 				<div class="container">
 					<div class="nav-contain-div row flex-row align-items-center">
 						<div class="header-logo-wrapper col-md-6">
-							<img class="portfolio-logo" src="<?php echo get_home_url() . '/wp-content/uploads/2023/01/Group-26@2x.png'; ?>" alt="portfolio_logo" />
+							<a href="<?php echo get_home_url(); ?>"><img class="portfolio-logo" src="<?php echo get_home_url() . '/wp-content/uploads/2023/01/Group-26@2x.png'; ?>" alt="portfolio_logo" />
+							</a>
 						</div><!-- .site-branding -->
 
 						<div class="hamburger-btn col-md-6">
